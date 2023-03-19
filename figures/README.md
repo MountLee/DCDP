@@ -1,5 +1,5 @@
 # Additional experiments for Section 4.1
-Here is a summary of additional experiments for Section 4.1 to demonstrate the performance of DCDP under low SNR (signal-to-noise ratio). In appendix G.2 of the original submission, we included results of additional experiments for Section 4.2 under low SNR.
+Here is a summary of additional experiments for Section 4.1 to demonstrate the performance of DCDP under low SNR (signal-to-noise ratio). In appendix G.2 of the original submission, we included results of additional experiments for Section 4.2 under low SNR. (Apologize as the Markdown formula fails to work in the Anonymous GitHub for some unknown reason)
 
 ### Data generation
 
