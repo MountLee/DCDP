@@ -17,7 +17,7 @@ Since the data is univariate, $\delta$ is equal to $\kappa$, the jump size of si
 
 ![single_cp](https://github.com/MountLee/DCDP/blob/main/figures/files/single-cp.png)
 
-It can be seen that with similar SNR, the localization error of DCDP under the (much more difficult) multiple change point setting is only twice of the error of the most powerful method in the simplest case. This demonstrate that DCDP performs well under low SNR scenarios. 
+It can be seen that with similar SNR, the localization error of DCDP under the (much more difficult) multiple change point setting is only twice of the error of the most powerful method in the simplest case. This demonstrate that DCDP performs well in low SNR scenarios. 
 
 Furthermore, if we set $\mathcal{Q}=n=2000$ in the setting $\Delta = 500$, then the "divide step" corresponds to the vanilla DP and "DCDP" corresponds to vanilla DP + local refinement. Theoretically, this would lead to more accurate estimates, but with a much higher computational price. The result for $\delta = 0.5, 0.75$ is:
 
