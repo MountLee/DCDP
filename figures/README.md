@@ -9,5 +9,10 @@ Again the error in following figures refers to the Hausdorff distance $H(\{\wide
 
 ### Results
 
+We set the number of grid points $\mathcal{Q}=100$, and the result is
 
-<img src="https://github.com/MountLee/DCDP/figures/files/DCDP_Q100_error_vs_delta.png">
+![DCDP_Q100_error_vs_delta](https://github.com/MountLee/DCDP/blob/main/figures/files/DCDP_Q100_error_vs_delta.png)
+
+Since the data is univariate, $\delta$ is equal to $\kappa$, the jump size of signals. To see if the localization error when $\delta=0.5, \Delta=500$ is reasonable, we also check the simplest setting, where $n=1000$ and it is known that there is only one true change point at $\eta^* = 500$. In this setting, the best choice is to simply pick the extreme point of the CUSUM statistic as the estimated change point, which leads to the following result:
+
+It can be seen that with similar SNR, the localization error of DCDP under the (much more difficult) multiple change point setting is only twice of the error of the most powerful method in the simplest case. This demonstrate that DCDP performs well under low SNR scenarios.
