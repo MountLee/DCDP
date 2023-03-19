@@ -23,4 +23,4 @@ Furthermore, if we set $\mathcal{Q}=n=2000$ in the setting $\Delta = 500$, then 
 
 ![DP](https://github.com/MountLee/DCDP/blob/main/figures/files/DP.png)
 
-It can be seen that the improvement on the localization error against that of $\mathcal{Q} =100$ is fairly small, while the run time is more than 200 times longer. This demonstrates that DCDP is efficient and accurate, even when SNR is low.
+It can be seen that the improvement on the localization error against that of $\mathcal{Q} =100$ is fairly small, while the run time is more than 200 times longer. This demonstrates that DCDP is efficient and accurate, even when the SNR is low.
